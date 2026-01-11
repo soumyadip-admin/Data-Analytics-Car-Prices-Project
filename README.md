@@ -41,19 +41,7 @@ The automotive market analysis project was designed to understand vehicle pricin
 - Missing Data: Less than 2% across all columns
 - Data Quality: High - Validated and cleaned
 
-### Key Variables
 
-| Column | Description | Values |
-|--------|-------------|--------|
-| Make | Vehicle brand | BMW, Ford, Honda, Toyota, etc. |
-| Model | Specific model | 3-Series, F-150, Civic, etc. |
-| Year | Model year | 1990-2015 |
-| Body | Vehicle type | Sedan, SUV, Hatchback, Minivan, Wagon |
-| Transmission | Transmission type | Automatic, Manual |
-| Odometer | Mileage | 0-500,000 miles |
-| SellingPrice | Sale price | $2,000-$125,000 |
-
----
 
 ## Methodology: The 4-Phase Analytics Pipeline
 
@@ -260,15 +248,15 @@ All analysis is fully reproducible:
 
 ---
 
-## Skills Demonstrated
+ Skills Demonstrated
 
-### Data Cleaning and Preparation
+ Data Cleaning and Preparation
 - Data type validation
 - Missing value handling
 - Outlier detection and treatment
 - Data quality assessment
 
-### SQL Proficiency
+ SQL Proficiency
 - SELECT, FROM, WHERE, GROUP BY, HAVING
 - Aggregate functions
 - JOIN operations
@@ -276,7 +264,7 @@ All analysis is fully reproducible:
 - Window functions
 - Query optimization
 
-### Statistical Analysis (R)
+ Statistical Analysis (R)
 - Descriptive statistics
 - Hypothesis testing
 - Regression modeling
@@ -284,77 +272,40 @@ All analysis is fully reproducible:
 - Data visualization
 - Functional programming
 
-### Data Visualization
+ Data Visualization
 - Chart type selection
 - Color theory and accessibility
 - Interactive design
 - Dashboard layout
 - Drill-down capability
 
-### Professional Skills
+ Professional Skills
 - Documentation and communication
 - Project planning and execution
 - Attention to detail
 - Problem-solving methodology
 - Insight extraction and storytelling
 
----
-
-## File Structure
-
-```
-Data-Analytics-Car-Prices-Project/
-├── README.md (this file)
-├── 01_Excel/
-│   ├── car_prices_cleaned.xlsx
-│   ├── data_exploration.xlsx
-│   └── transformation_log.xlsx
-├── 02_SQL/
-│   ├── 01_data_import.sql
-│   ├── 02_market_segmentation.sql
-│   ├── 03_brand_analysis.sql
-│   ├── 04_temporal_analysis.sql
-│   └── 05_correlation_analysis.sql
-├── 03_R/
-│   ├── 01_exploratory_analysis.R
-│   ├── 02_hypothesis_testing.R
-│   ├── 03_regression_modeling.R
-│   └── 04_market_segmentation.R
-├── 04_Tableau/
-│   ├── Vehicle_Analytics_Dashboard.twbx
-│   ├── Vehicle_Distribution_by_Body_Type.jpg
-│   ├── Vehicle_Beeswarm_by_Body_Type.jpg
-│   ├── Streamgraph_Make_Over_Years.jpg
-│   ├── Make_to_Body_Type_Flow.jpg
-│   ├── Distinct_Years_by_Make.jpg
-│   ├── Chord_Make_to_Body.jpg
-│   └── Selling_Price_to_Year.jpg
-├── 05_Insights/
-│   ├── key_findings.md
-│   └── recommendations.md
-└── data/
-    └── car_prices_raw.csv
-```
 
 ---
 
-## Recommendations
+ Recommendations
 
-### For Used Car Dealers
+ For Used Car Dealers
 
 1. Focus inventory on Sedan and SUV categories (54% combined market)
 2. Prioritize vehicles with under 100k miles (command 35% price premium)
 3. Monitor minivan segment for deal opportunities
 4. Track brand perception in your market
 
-### For Buyers
+ For Buyers
 
 1. Consider SUVs for better value retention
 2. Look for vehicles in 50-75k mile range for best value
 3. Understand body-type specific depreciation
 4. Account for model year premiums in budgeting
 
-### For Data Analysts
+For Data Analysts
 
 1. Use market segmentation approach before making recommendations
 2. Combine multiple tools: Excel (speed), SQL (precision), R (rigor), Tableau (impact)
@@ -363,7 +314,7 @@ Data-Analytics-Car-Prices-Project/
 
 ---
 
-## How to Use This Project
+ How to Use This Project
 
 ### For Hiring Managers
 1. Review this README for complete overview
@@ -371,13 +322,13 @@ Data-Analytics-Car-Prices-Project/
 3. Examine SQL queries in /02_SQL
 4. Review R code in /03_R
 
-### For Learning
+ For Learning
 1. Reference SQL patterns in /02_SQL
 2. Study statistical techniques in /03_R
 3. Learn visualization design from /04_Tableau
 4. Adapt project structure for your analysis
 
-### For Reproducibility
+ For Reproducibility
 1. Start with raw data in /data
 2. Follow Excel steps in /01_Excel
 3. Execute SQL scripts sequentially
@@ -386,7 +337,7 @@ Data-Analytics-Car-Prices-Project/
 
 ---
 
-## Future Enhancements
+ Future Enhancements
 
 Potential extensions to this analysis:
 
@@ -398,18 +349,12 @@ Potential extensions to this analysis:
 
 ---
 
-## License
-
-This project is licensed under the MIT License.
-
----
-
 ## Contact
 
 For questions or feedback about this project:
-- GitHub: https://github.com/[YOUR_USERNAME]
-- LinkedIn: https://linkedin.com/in/[YOUR_PROFILE]
-- Email: [YOUR_EMAIL]
+
+- LinkedIn: https://www.linkedin.com/in/soumyadip-sarkar-1169aa131/
+- Email: soumyadipsarkar2106@gmail.com
 
 ---
 
